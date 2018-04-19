@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var usuario = require('../models/usuario.js');
+var usuario = require('../Models/Usuario.js');
 
 
 router.post('/data', function(req, res) {
