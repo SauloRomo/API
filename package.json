@@ -16,5 +16,8 @@
     "bugs": {
         "url": "https://github.com/SauloRomo/API/issues"
     },
-    "homepage": "https://github.com/SauloRomo/"
+    "homepage": "https://github.com/SauloRomo/",
+    "dependencies": {
+        "express": "^4.16.3"
+    }
 }
