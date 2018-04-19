@@ -4,10 +4,17 @@ var usuario = require('../models/usuario.js');
 
 
 router.post('/data', function(req, res) {
-    // console.log(req.body);
+    console.log("Hola");
     res.send("hola");
 
 });
+
+router.get('/Hello', function(req, res) {
+    console.log("Hola");
+    res.send("hola");
+
+});
+
 
 
 
