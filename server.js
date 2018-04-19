@@ -12,7 +12,7 @@ var jwt = require('jsonwebtoken');
 var expressJwt = require('express-jwt');
 var router = express.Router();
 var cron = require('node-cron');
-var producto = require('./models/productos.js');
+
 
 
 var app = express();
@@ -33,7 +33,7 @@ app.use(function(req, res, next) {
     next();
 });
 
-var route = require('./routes/usuario_route.js');
+var route = require('./Routes/usuario-route.js');
 app.use('/', route);
 
 
